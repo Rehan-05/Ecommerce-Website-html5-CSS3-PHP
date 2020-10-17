@@ -1,0 +1,79 @@
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body{
+ background-color:skyblue;  
+}
+.main_wrapper{
+    width: 1000px;
+    height:auto;
+    margin: auto;
+    background-color: black;
+}
+#header{
+    width: 1000px;
+    height: 60px;
+    background-image:url(../images/download.jpg);
+    border-bottom: 5px groove orange;
+}
+#left{
+    width: 800px;
+    height: auto;
+    
+
+    
+    background-repeat: no-repeat;
+    float: left;
+
+}
+#right{
+    width: 200px;
+    height: 800px;
+    float: right;
+    border-left: 5px groove orange;
+    background-color:#187eae;
+}
+#right a{
+    text-decoration: none;
+    color: white;
+    text-align: left;
+    font-size: 16px;
+    font-family: sans-serif ;
+    display: block;
+    margin: 6px;
+    padding-left: 5px;
+    
+}
+#right a:hover{
+    text-decoration: underline;
+    font-weight: bolder;
+    color: orange;
+}
+.content_wrapper{
+    width: 1000px;
+   float: left;
+    margin-left: auto;
+    background-color:#187eae;;
+   
+}
